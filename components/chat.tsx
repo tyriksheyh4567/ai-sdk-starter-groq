@@ -21,7 +21,7 @@ export default function Chat() {
         toast.error(
           error.message.length > 0
             ? error.message
-            : "An error occured, please try again later.",
+            : "Произошла ошибка, попробуйте потом.",
           { position: "top-center", richColors: true },
         );
       },
